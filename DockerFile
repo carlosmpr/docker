@@ -1,0 +1,8 @@
+#Specify base image
+FROM node:alpine
+
+#install dependecies
+RUN npm install
+
+#run the node server
+CMD ["npm", "start"]
